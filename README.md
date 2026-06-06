@@ -99,15 +99,15 @@ The production application features a premium UI theme complete with custom CSS 
 Fake-News-Detector/
 │
 ├── data/
-│   ├── Fake.csv            # Auto-downloaded or provided by user
-│   └── True.csv            # Auto-downloaded or provided by user
+│   ├── Fake.csv            
+│   └── True.csv           
 │
 ├── models/
-│   ├── best_model.pkl      # Saved best classifier
-│   ├── tfidf_vectorizer.pkl# Saved TF-IDF vectorizer
-│   └── leaderboard.csv     # Saved classifier benchmark stats
+│   ├── best_model.pkl     
+│   ├── tfidf_vectorizer.pkl
+│   └── leaderboard.csv     
 │
-├── Screenshots/            # EDA and visual charts
+├── Screenshots/           
 │   ├── class_distribution.png
 │   ├── news_length_distribution.png
 │   ├── article_length_boxplot.png
@@ -116,10 +116,10 @@ Fake-News-Detector/
 │   ├── wordcloud_real.png
 │   └── wordcloud_fake.png
 │
-├── train.py                # Main ML pipeline (Preprocessing -> EDA -> Training -> Serialization)
-├── app.py                  # Streamlit frontend dashboard
-├── requirements.txt        # Package dependencies
-└── README.md               # Documentation
+├── train.py               
+├── app.py                  
+├── requirements.txt        
+└── README.md               
 ```
 
 ---
